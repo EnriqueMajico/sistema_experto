@@ -625,7 +625,7 @@ class ServidorWebExperto(BaseHTTPRequestHandler):
 
 
 def ejecutar_interfaz():
-    puerto = 8080
+    puerto = 8085
     url = f"http://127.0.0.1:{puerto}"
     servidor = HTTPServer(("127.0.0.1", puerto), ServidorWebExperto)
 
